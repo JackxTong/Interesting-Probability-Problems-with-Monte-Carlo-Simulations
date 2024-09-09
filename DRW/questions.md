@@ -1,14 +1,10 @@
 ### Question 3 of 6:
-Let \( X \sim \mathcal{N}(0, 1) \) be a normally distributed random variable. We want to "quantize \( X \) using 1 bit per symbol", that is, we want to choose \( c \in \mathbb{R}_+ \) in the following mapping
+Let `X ~ N(0, 1)` be a normally distributed random variable. We want to "quantize X using 1 bit per symbol", that is, we want to choose `c ∈ R+` in the following mapping: 
 
-\[
-Q(x) = \begin{cases} 
-c, & \text{if } x \geq 0 \\
--c, & \text{if } x < 0
-\end{cases}
-\]
+Q(x) = { c if x >= 0 -c if x < 0 }
 
-to minimize the "quantization error" \( \mathbb{E}[(X - Q(X))^2] \). Let \( c^* \) be the minimizer. What is the value of \( c^* \)? Round your number to 3 decimal places.
+
+to minimize the "quantization error" `E[(X - Q(X))^2]`. Let `c*` be the minimizer. What is the value of `c*`? Round your number to 3 decimal places.
 
 ---
 
@@ -27,10 +23,10 @@ By allocating the portfolio optimally between the two strategies, what is the ma
 ---
 
 ### Question 6 of 6:
-Suppose you have a fair coin and start at step 0. Each time you toss the coin, if it lands on heads, you move forward 1 step; if it lands on tails, you move forward 2 steps. You continue tossing the coin and moving accordingly. Let \( p_n \) be the probability of ever landing exactly on step \( n \). Calculate
+Suppose you have a fair coin and start at step 0. Each time you toss the coin, if it lands on heads, you move forward 1 step; if it lands on tails, you move forward 2 steps. You continue tossing the coin and moving accordingly. Let `p_n` be the probability of ever landing exactly on step `n`. Calculate:
 
-\[
-1000(p_4 + p_8)
-\]
+1000 * (p4 + p8)
 
 Round your number to 3 decimal places.
+
+
